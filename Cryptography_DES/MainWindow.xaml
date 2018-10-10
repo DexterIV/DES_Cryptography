@@ -1,0 +1,25 @@
+﻿<Window x:Class="Cryptography.TripleDes.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Cryptography.TripleDes"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <StackPanel Margin="10">
+            <TextBlock Text="Input:" Margin="0,5" />
+            <TextBox x:Name="Input" Margin="0,5" Text="02468ACEECA86420" />
+            <Button Content="To Hex" Click="ButtonToHexOnClick"/>
+            <StackPanel HorizontalAlignment="Stretch" Margin="0,5">
+                <TextBlock Text="Key:" Margin="5,0" />
+                <TextBox x:Name="Key1" Text="0F1571C947D9E859" HorizontalAlignment="Stretch" Margin="5,0" />
+            </StackPanel>
+            <TextBlock Text="Output:" Margin="0,5" />
+            <TextBox x:Name="Output" IsReadOnly="True" Margin="0,5" />
+            <Button Content="To UTF" Click="UtfButtonOnClick" Margin="0,5" />
+            <Button Content="Encrypt" Click="EncryptButtonOnClick" Margin="0,5" />
+            <Button Content="Decrypt" Click="DecryptButtonOnClick" Margin="0,5" />
+        </StackPanel>
+    </Grid>
+</Window>

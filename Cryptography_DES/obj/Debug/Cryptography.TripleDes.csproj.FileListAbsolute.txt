@@ -1,0 +1,15 @@
+C:\Users\Dexter\Desktop\Cryptography2017-master\Cryptography.TripleDes\bin\Debug\Cryptography.TripleDes.exe.config
+C:\Users\Dexter\Desktop\Cryptography2017-master\Cryptography.TripleDes\bin\Debug\Cryptography.TripleDes.exe
+C:\Users\Dexter\Desktop\Cryptography2017-master\Cryptography.TripleDes\bin\Debug\Cryptography.TripleDes.pdb
+C:\Users\Dexter\Desktop\Cryptography2017-master\Cryptography.TripleDes\obj\Debug\Cryptography.TripleDes.csprojResolveAssemblyReference.cache
+C:\Users\Dexter\Desktop\Cryptography2017-master\Cryptography.TripleDes\obj\Debug\MainWindow.g.cs
+C:\Users\Dexter\Desktop\Cryptography2017-master\Cryptography.TripleDes\obj\Debug\App.g.cs
+C:\Users\Dexter\Desktop\Cryptography2017-master\Cryptography.TripleDes\obj\Debug\Cryptography.TripleDes_MarkupCompile.cache
+C:\Users\Dexter\Desktop\Cryptography2017-master\Cryptography.TripleDes\obj\Debug\Cryptography.TripleDes_MarkupCompile.lref
+C:\Users\Dexter\Desktop\Cryptography2017-master\Cryptography.TripleDes\obj\Debug\MainWindow.baml
+C:\Users\Dexter\Desktop\Cryptography2017-master\Cryptography.TripleDes\obj\Debug\Cryptography.TripleDes.g.resources
+C:\Users\Dexter\Desktop\Cryptography2017-master\Cryptography.TripleDes\obj\Debug\Cryptography.TripleDes.Properties.Resources.resources
+C:\Users\Dexter\Desktop\Cryptography2017-master\Cryptography.TripleDes\obj\Debug\Cryptography.TripleDes.csproj.GenerateResource.cache
+C:\Users\Dexter\Desktop\Cryptography2017-master\Cryptography.TripleDes\obj\Debug\Cryptography.TripleDes.csproj.CoreCompileInputs.cache
+C:\Users\Dexter\Desktop\Cryptography2017-master\Cryptography.TripleDes\obj\Debug\Cryptography.TripleDes.exe
+C:\Users\Dexter\Desktop\Cryptography2017-master\Cryptography.TripleDes\obj\Debug\Cryptography.TripleDes.pdb
