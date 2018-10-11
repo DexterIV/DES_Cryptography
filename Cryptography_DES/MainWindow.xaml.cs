@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Microsoft.Win32;
+using System;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
@@ -14,6 +16,33 @@ namespace Cryptography.TripleDes
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void ReadFromFileButtonOnClick(object sender, RoutedEventArgs e)
+        {
+            try
+            {   // Open the text file using a stream reader.
+                OpenFileDialog dialog = new OpenFileDialog();
+                dialog.Filter =
+                   "txt files (*.txt)|*.txt|All files (*.*)|*.*";
+                dialog.InitialDirectory = "C:\\";
+                dialog.Title = "Select a text file";
+                if (dialog.ShowDialog() == true)
+                {
+                    string fname = dialog.FileName;
+
+                    using (StreamReader sr = new StreamReader(fname))
+                    {
+                        // Read the stream to a string, and write the string to the console.
+                        String line = sr.ReadToEnd();
+                        Input.Text = line;
+                    }
+                }
+            }
+            catch (Exception)
+            {
+            }
+
         }
 
         private void DecryptButtonOnClick(object sender, RoutedEventArgs e)
@@ -34,7 +63,7 @@ namespace Cryptography.TripleDes
 
         private void ButtonToHexOnClick(object sender, RoutedEventArgs e)
         {
-            Input.Text =  string.Join("",Encoding.ASCII.GetBytes(Input.Text).Select(c => c.ToString("X2")));
+            Input.Text = string.Join("", Encoding.ASCII.GetBytes(Input.Text).Select(c => c.ToString("X2")));
         }
 
         private void UtfButtonOnClick(object sender, RoutedEventArgs e)

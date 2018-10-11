@@ -8,6 +8,7 @@
         Title="MainWindow" Height="350" Width="525">
     <Grid>
         <StackPanel Margin="10">
+            <Button Content="Read from file" Click="ReadFromFileButtonOnClick"/>
             <TextBlock Text="Input:" Margin="0,5" />
             <TextBox x:Name="Input" Margin="0,5" Text="02468ACEECA86420" />
             <Button Content="To Hex" Click="ButtonToHexOnClick"/>
