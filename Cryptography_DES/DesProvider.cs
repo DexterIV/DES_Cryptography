@@ -36,7 +36,6 @@ namespace Cryptography.TripleDes
 
         private BitArray SBoxSubstitution(BitArray input)
         {
-            var res = "";
             string r;
             int row, col;
             string c;

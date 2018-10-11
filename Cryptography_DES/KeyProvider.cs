@@ -35,8 +35,6 @@ namespace Cryptography.TripleDes
         private BitArray ShiftRight(BitArray key, int shift)
         {
             var output = new BitArray(28);
-            var index = 0;
-
 
             for (var i = 0; i < output.Length; i++)
                 output[(i + 1) % output.Length] = key[i];
